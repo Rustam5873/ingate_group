@@ -1,4 +1,5 @@
 * {
+    position: relative;
     margin: 0px;
     padding: 0px;
 }
@@ -6,16 +7,15 @@
 .container1 {
     display: flex;
     justify-content: center;
-    right: 100px;    
-    background-color: white;
-
+    background-color: white;    
 }    
-
 
 .header_img {
     width: 104px;
     height: 32px;
     margin-top: 10px;
+    display: flex;   
+ 
 }
 
 .menu {
@@ -154,7 +154,8 @@
 }
 
 .nav2 {
-    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-left: 150px;
 }
 
 .menu2 li{
@@ -166,7 +167,7 @@
     text-decoration: none;
     font-weight: 400;
     color: rgb(36, 34, 34);
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .menu2 a:hover {
@@ -175,79 +176,26 @@
 
 .card {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    margin-top: 30px;
-    font-family: "Montserrat", sans-serif;
     margin-left: 300px;
     margin-right: 300px;
 }
 
 
-.card1 {
+.card_s {
     display: flex;
     flex-direction: column; 
 }
 
-.pcard1 {
+.pcard  {
     margin: 10px;
     text-align: left;
 }
 
-.card2 {
-    display: flex;
-    flex-direction: column; 
-}
-
-.pcard2 {
-    margin: 10px;
-    text-align: left;
-}
-
-.card3 {
-    display: flex;
-    flex-direction: column; 
-}
-
-.pcard3 {
-    margin: 10px;
-    text-align: left;
-}
-
-.card4 {
-    display: flex;
-    flex-direction: column; 
-}
-
-.pcard4 {
-    margin: 10px;
-    text-align: left;
-}
-
-.cardimg1 {
+.cardimg {
     width: 285px;
     height: 285px;
     border-radius: 10px;
-}
-
-.cardimg2 {
-    width: 285px;
-    height: 285px;
-    border-radius: 10px;
-
-}
-
-.cardimg3 {
-    width: 285px;
-    height: 285px;
-    border-radius: 10px;
-}
-
-.cardimg4 {
-    width: 285px;
-    height: 285px;
-    border-radius: 10px;
-
 }
 
 .card_h4 {
@@ -300,8 +248,6 @@
     background-color: #1a222d;
     color: white;
 }
-
-
 
 .section3 {
     margin-top: 50px;
@@ -363,7 +309,7 @@
    margin-top: 10px;
 }
 
-.number_cases1 {
+.number_cases {
     color:yellow;
     font-size: 42px;
     margin-left: 25px;
@@ -371,35 +317,7 @@
     font-weight: bold;
 }
 
-.perkorzine1 {
-    font-size: 18px;
-    color: white;
-    margin-left: 25px;
-    font-weight: 400;
-}
-
-.number_cases2 {
-    color:yellow;
-    font-size: 42px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-.perkorzine2 {
-    font-size: 18px;
-    color: white;
-    margin-left: 25px;
-    font-weight: 400;
-}
-
-.number_cases3 {
-    color:yellow;
-    font-size: 42px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-.perkorzine3 {
+.perkorzine {
     font-size: 18px;
     color: white;
     margin-left: 25px;
@@ -437,7 +355,6 @@
     margin-bottom: 50px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-
 }
 
 .enough_cases {
@@ -451,8 +368,6 @@
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
-
-
 
 .general_technology {
     font-family: "Montserrat", sans-serif;
@@ -492,7 +407,6 @@
     margin-left: 90px;
 }
 
-
 .rookee_card {
     display: flex;
     flex-direction: column;
@@ -501,7 +415,6 @@
     margin-left:28px ;
     margin-top: 20px;
 }
-
 
 .rookee_txt1 {
     color: yellow;
@@ -628,6 +541,94 @@
 
 .email {     
     color: white;
+}
+
+.container6 {
+    background-color: #1a222d;
+}
+
+.img_footer {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_img {
+    height: 160px;
+    width: 350px;
+}
+
+.container6 {
+    font-family: "Montserrat", sans-serif;
+    color: white; 
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+.address {
+    margin: 0px 100px 10px 30px; 
+}
+
+.number {
+    margin: 0px 15px 10px 100px; 
+}
+
+.network {
+    margin: 0px 15px 10px 400px; 
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.vk_img {
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.github_img {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.infotxt {
+    margin: 40px 0px 40px 0px;
+}
+
+.network_txt { 
+    color: #ebebeb;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+.network_txt1 {
+    display: flex;
+    justify-content: center;
+    color: #ebebeb;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 20px;  
+}
+
+.vk_github {
+    width: 50px;
+    height: 50px;
+}
+
+.network a:hover {
+    color: rgb(83, 74, 206);
 }
 
 
